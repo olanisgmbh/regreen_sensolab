@@ -1,0 +1,32 @@
+// dritter Sensor
+/*
+static const u1_t PROGMEM APPEUI[8]={ 0xAC, 0xBD, 0x02, 0xD0, 0x7E, 0xD5, 0xB3, 0x70 };
+static const u1_t PROGMEM DEVEUI[8]={ 0x47, 0xCD, 0xCC, 0xAB, 0x12, 0xB6, 0x08, 0x00 };
+static const u1_t PROGMEM APPKEY[16] = { 0xFF, 0xAA, 0xCB, 0x2C, 0xA6, 0x74, 0x97, 0x30, 0xCA, 0x43, 0x79, 0x38, 0x47, 0xED, 0x3C, 0x0B  };
+*/
+
+//Versuchs Sensor
+static const u1_t PROGMEM APPEUI[8]={ 0xAC, 0xBD, 0x02, 0xD0, 0x7E, 0xD5, 0xB3, 0x70 };
+static const u1_t PROGMEM DEVEUI[8]={ 0x36, 0xDE, 0x77, 0xD3, 0x75, 0x71, 0x9B, 0x00 };
+static const u1_t PROGMEM APPKEY[16] = { 0x47, 0xC7, 0x7C, 0x83, 0x9B, 0x7E, 0x60, 0x3D, 0x6A, 0xBC, 0x4E, 0x0F, 0xE4, 0xF7, 0x69, 0x2A };
+
+
+
+
+
+
+static const int GPS_RX = 12, GPS_TX = 34;  // rev v1_1
+//static const int GPS_RX = 15, GPS_TX = 12;  // rev V0_7
+static const uint32_t GPSBaud = 9600;
+
+// Schedule TX every this many seconds (might become longer due to duty
+// cycle limitations).
+const uint32_t TX_INTERVAL = 360;
+
+const uint16_t LIGHT_THRESHHOLD_DOWN_HIGH = 3000;
+const uint16_t LIGHT_THRESHHOLD_UP_HIGH = 65000;
+const uint16_t LIGHT_THRESHHOLD_DOWN_LOW = 1800;
+const uint16_t LIGHT_THREADHHOLD_UP_LOW = 65000; 
+
+const int UV_R_SET_KOHM = 270;
+const veml6070_integrationtime_t UV_IT = VEML6070_1_T;
