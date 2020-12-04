@@ -1,0 +1,9 @@
+Reference, Value, Footprint, Datasheet, MANUFACTURER, PARTREV, STANDARD
+"U1","VEML6070","VEML6070:PHODET_VEML6070","","Vishay","",""
+"U2","VEML7700-TT","VEML7700-TT:XDCR_VEML7700-TT","","Vishay","1.3","Manufacturer Recommendation"
+"U3","P82B715D","SOIC127P599X175-8N",""
+"R1","330","Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~"
+"J1","Conn_01x04","Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical","~"
+"R2","330","Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~"
+"R3","270K","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
+"C1","100n","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
